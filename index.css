@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    color: #e6e6e6;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+
+.end-message {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    color:rgb(0, 0, 127);
+    margin: 7em auto;
+    line-height: 1.1;
+}
+
+span {
+    font-size: 40px;
+    font-family: monospace;
+    color: blue;
+}
+
+/*================
+    HEADER
+=================*/
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-left: 1.5em;
+}
+
+header img {
+    max-width: 2em;
+    height: 2em;
+    margin: 1em 0;
+}
+
+.logo {
+    max-width: 5em;
+}
+
+/*================
+    MAIN
+=================*/
+#profile {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.accept img {
+    width: 20%;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    transform: rotate(700deg);
+}
+
+.dog_image {
+    max-width: 90%;
+    border-radius: 7px;
+}
+
+.dog_profile {
+    position: absolute;
+    margin-top: -7.5rem;
+    padding-left: 2.5rem;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: .9em;
+    margin-top: 0;
+    padding-left: .2rem;
+}
+
+
+/*================
+    FOOTER
+=================*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 0 2em;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.remove-reject,
+.remove-accept {
+    display: none;
+}
+
+.reject img {
+    width: 20%;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    transform: rotate(700deg);
+}
+
+.reject:hover,
+.reject:active {
+    background-color: #e82d6e40;
+    transition: all 0.5s ease-in-out;
+}
+
+.accept:hover,
+.accept:active {
+    background-color: #00d89440;
+    transition: all 0.5s ease-in-out;
+}
+
+button img {
+    max-width: 80%;
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 30px;
+}
